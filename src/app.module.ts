@@ -8,6 +8,7 @@ import { DataSource } from 'typeorm';
 import { addTransactionalDataSource } from 'typeorm-transactional';
 
 import { HealthCheckerModule } from './modules/health-checker/health-checker.module';
+import { LeaderboardModule } from './modules/leaderboard/leaderboard.module';
 import { ApiConfigService } from './shared/services/api-config.service';
 import { SharedModule } from './shared/shared.module';
 import { ScheduleModule } from '@nestjs/schedule';
@@ -21,6 +22,7 @@ import { CommonErrorInterceptor } from './interceptors/common-error-interceptor.
   imports: [
     ScheduleModule.forRoot(),
     CronModule,
+    LeaderboardModule,
     ConfigModule.forRoot({
       isGlobal: true,
       envFilePath: '.env',
