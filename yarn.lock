@@ -2649,10 +2649,10 @@
   resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-9.0.8.tgz#7545ba4fc3c003d6c756f651f3bf163d8f0f29ba"
   integrity sha512-jg+97EGIcY9AGHJJRaaPVgetKDsrTgbRjQ5Msgjh/DQKEFl0DtyRr/VCOyD1T2R1MNeWPK/u7JoGhlDZnKBAfA==
 
-"@types/validator@^13.11.8":
-  version "13.12.1"
-  resolved "https://registry.yarnpkg.com/@types/validator/-/validator-13.12.1.tgz#8835d22f7e25b261e624d02a42fe4ade2c689a3c"
-  integrity sha512-w0URwf7BQb0rD/EuiG12KP0bailHKHP5YVviJG9zw3ykAokL0TuxU2TUqMB7EwZ59bDHYdeTIvjI5m0S7qHfOA==
+"@types/validator@^13.15.3":
+  version "13.15.10"
+  resolved "https://registry.yarnpkg.com/@types/validator/-/validator-13.15.10.tgz#742b77ec34d58554b94a76a14cef30d59e3c16b9"
+  integrity sha512-T8L6i7wCuyoK8A/ZeLYt1+q0ty3Zb9+qbSSvrIVitzT3YjZqkTZ40IbRsPanlB4h1QB3JVL1SYCdR6ngtFYcuA==
 
 "@types/webpack-env@^1.18.1":
   version "1.18.5"
@@ -3890,14 +3890,14 @@ class-transformer@~0.5.1:
   resolved "https://registry.yarnpkg.com/class-transformer/-/class-transformer-0.5.1.tgz#24147d5dffd2a6cea930a3250a677addf96ab336"
   integrity sha512-SQa1Ws6hUbfC98vKGxZH3KFY0Y1lm5Zm0SY8XX9zbK7FJCyVEac3ATW0RIpwzW+oOfmHE5PMPufDG9hCfoEOMw==
 
-class-validator@~0.14.0:
-  version "0.14.1"
-  resolved "https://registry.yarnpkg.com/class-validator/-/class-validator-0.14.1.tgz#ff2411ed8134e9d76acfeb14872884448be98110"
-  integrity sha512-2VEG9JICxIqTpoK1eMzZqaV+u/EiwEJkMGzTrZf6sU/fwsnOITVgYJ8yojSy6CaXtO9V0Cc6ZQZ8h8m4UBuLwQ==
+class-validator@~0.14.3:
+  version "0.14.3"
+  resolved "https://registry.yarnpkg.com/class-validator/-/class-validator-0.14.3.tgz#834a4caafa8359aed73d7708badb4cf271be50fe"
+  integrity sha512-rXXekcjofVN1LTOSw+u4u9WXVEUvNBVjORW154q/IdmYWy1nMbOU9aNtZB0t8m+FJQ9q91jlr2f9CwwUFdFMRA==
   dependencies:
-    "@types/validator" "^13.11.8"
-    libphonenumber-js "^1.10.53"
-    validator "^13.9.0"
+    "@types/validator" "^13.15.3"
+    libphonenumber-js "^1.11.1"
+    validator "^13.15.20"
 
 clean-regexp@^1.0.0:
   version "1.0.0"
@@ -7507,10 +7507,10 @@ levn@^0.4.1:
     prelude-ls "^1.2.1"
     type-check "~0.4.0"
 
-libphonenumber-js@^1.10.53:
-  version "1.11.7"
-  resolved "https://registry.yarnpkg.com/libphonenumber-js/-/libphonenumber-js-1.11.7.tgz#efe4fcf816e1982925e9c800d0013b0ee99b8283"
-  integrity sha512-x2xON4/Qg2bRIS11KIN9yCNYUjhtiEjNyptjX0mX+pyKHecxuJVLIpfX1lq9ZD6CrC/rB+y4GBi18c6CEcUR+A==
+libphonenumber-js@^1.11.1:
+  version "1.12.31"
+  resolved "https://registry.yarnpkg.com/libphonenumber-js/-/libphonenumber-js-1.12.31.tgz#3cdb45641c6b77228dd1238f3d810c3bb5d91199"
+  integrity sha512-Z3IhgVgrqO1S5xPYM3K5XwbkDasU67/Vys4heW+lfSBALcUZjeIIzI8zCLifY+OCzSq+fpDdywMDa7z+4srJPQ==
 
 lilconfig@2.1.0:
   version "2.1.0"
@@ -10592,10 +10592,10 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-validator@^13.9.0:
-  version "13.12.0"
-  resolved "https://registry.yarnpkg.com/validator/-/validator-13.12.0.tgz#7d78e76ba85504da3fee4fd1922b385914d4b35f"
-  integrity sha512-c1Q0mCiPlgdTVVVIJIrBuxNicYE+t/7oKeI9MWLj3fh/uq2Pxh/3eeWbVZ4OcGW1TUf53At0njHw5SMdA3tmMg==
+validator@^13.15.20:
+  version "13.15.23"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-13.15.23.tgz#59a874f84e4594588e3409ab1edbe64e96d0c62d"
+  integrity sha512-4yoz1kEWqUjzi5zsPbAS/903QXSYp0UOtHsPpp7p9rHAw/W+dkInskAE386Fat3oKRROwO98d9ZB0G4cObgUyw==
 
 vary@^1, vary@~1.1.2:
   version "1.1.2"
